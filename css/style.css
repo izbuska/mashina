@@ -1,0 +1,188 @@
+/*RESET*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------------*/
+
+
+
+.clear{
+	clear: both;
+ /*   content: "";
+    display: table;*/
+}
+
+
+
+.karkas {
+	background: linear-gradient(to left, #706353, #9e968b, #706353);
+}
+
+/*HEADER*/
+.header {
+	margin: 0 auto;
+	max-width: 1170px;
+	/*height: 90px;*/
+
+	padding: 40px 0px;
+}
+
+.logotip {
+	float: left;
+	padding: 0px 50px;
+}
+
+.contact {
+	float: right;
+	font-size: 14px;
+	color: #ddd;
+	padding: 45px 20px 15px 100px;
+	text-decoration: underline;
+}
+
+.contact img {
+	width: 20px;
+	height: 20px;			 
+	padding: 0 10px 0 60px;
+	vertical-align: middle;
+}
+
+
+/*NAV*/
+.ssss {
+		float:right;
+			padding: 0 10px 50px 60px;
+}
+nav {
+
+}
+.menu {
+	margin: 0 auto;
+	/*max-width: 970px;*/
+}
+
+.menu ul {
+	float: right;
+	position: relative;
+	left: -50%;
+}
+
+.menu ul li {
+	float: left;
+	position: relative;
+	left: 50%;
+}
+
+.menu li:first-child a {
+	border-left: 2px solid #999;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+.menu li:last-child a {
+	border-right: 2px solid #999;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+
+.menu ul li a {
+	background: #f55;
+	border-top: 2px solid #999;
+	border-bottom: 2px solid #999;
+	padding: 15px 15px;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: block;
+}
+
+.menu ul li a:hover {
+	color: #f00;
+	font-size: 20px;
+	text-decoration: underline;
+	transition: 0.5s;
+	background: #fff;
+	line-height: 20px;
+}
+
+
+.menu ul li:hover {
+
+}
+/*
+.menu li {
+	margin-top: 2px;
+	display: flex;
+	padding: 5px 25px;
+	border-left: 2px solid #999;
+	border-top: 2px solid #999;
+	border-bottom: 2px solid #999;
+}
+
+
+/*
+.menu li:last-child {
+	border-right: 2px solid #999;
+}
+
+ul.menu {
+	display: flex;
+}
+.menu a {
+	text-decoration: none;
+}
+
+.content {
+	height: 500px;
+	background: url('../img/main1.jpg');
+	color: #fff;
+}
+
+.footer {
+	height: 500px;
+	background: #aaa;
+}
